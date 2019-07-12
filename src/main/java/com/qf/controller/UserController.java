@@ -21,6 +21,8 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class UserController {
 
+
+
     final String USERNAMEEXP = "[a-zA-Z0-9_]{4,20}";
     final String PASSWORDEXP = "\\w{5,20}";
     final int FAIL = -1;

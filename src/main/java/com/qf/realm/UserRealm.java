@@ -17,6 +17,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class UserRealm extends AuthorizingRealm {
+
     @Autowired
     private UserService userService;
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
